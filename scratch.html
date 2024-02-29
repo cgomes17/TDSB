@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatGPT Question Answering Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./api.js"></script>
+    <style>
+      /* Insert style here */
+    </style>
+  </head>
+  <body>
+    <!-- <form onsubmit="submitQuestion(event)"> -->
+
+    <!-- Enter html Here -->
+
+    <!-- </form> -->
+
+    <form onsubmit="submitQuestion(event)">
+      <label for="question">Enter your question:</label>
+      <input type="text" id="question" name="question" required />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="answer">
+      <h2>Answer:</h2>
+      <p id="answer-text"></p>
+    </div>
+  </body>
+</html>
