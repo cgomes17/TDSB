@@ -1,4 +1,4 @@
-    const API_KEY = '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';
+    const API_KEY = 'sk-WKSIqGQAviMhRDqr6HZjT3BlbkFJ8N8cXHVpVt8nF3dtfu';
 
     async function submitQuestion(event) {
         event.preventDefault();
